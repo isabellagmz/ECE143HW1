@@ -1,13 +1,12 @@
+import is_string_integer as isi
+
 class Homework1:
     def __init__(self):
         pass
 
-    def is_string_integer(input_string):
-        if input_string:
-            print("true")
-
 if __name__ == '__main__':
 
+    some = "a"
     my_Homework1 = Homework1()
-    my_Homework1.is_string_integer()
+    isi.is_string_integer(some)
 
