@@ -7,8 +7,17 @@
 
 
 ##############################################################################
-#
+# will make the sum of all non negative numbers from 0 up to n value         #
 ##############################################################################
-
 def compute_sum_to_n(n):
-    pass
+
+    # make sure n is not negative
+    assert n >= 0
+
+    # make the non-negative sum
+    sum = 0
+    while n != 0:
+        sum = sum + n
+        n = n - 1
+
+    return sum
