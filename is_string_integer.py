@@ -14,11 +14,11 @@
 def is_string_integer(input_string):
 
     # check if input is valid (single character string)
-    if len(input_string) != 1:
-        return False
+    assert len(input_string) == 1
 
     # return true if it is digit, false if it is not digit
     if input_string.isdigit():
         return True
     else:
         return False
+
