@@ -1,5 +1,6 @@
 import is_string_integer as isi
 import average_word_length as awl
+import sum_nonnegative as snn
 
 class Homework1:
     def __init__(self):
