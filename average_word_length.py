@@ -20,6 +20,9 @@ def compute_average_word_length(instring,unique=False):
     assert type(instring) == str
     assert len(instring) >= 1
 
+    # check that unique is boolean
+    assert type(unique) == bool
+
     # split string by spaces into a list of words
     list_duplicates = instring.split()
 
