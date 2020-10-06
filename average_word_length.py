@@ -22,6 +22,9 @@ def compute_average_word_length(instring,unique=False):
     # split string by spaces into a list of words
     list_duplicates = instring.split()
 
+    # check that instring actually has words
+    assert len(list_duplicates) >= 1
+
     # remove duplicates by making it a set if unique is true
     if unique:
         split_string = set(list_duplicates)
@@ -36,6 +39,6 @@ def compute_average_word_length(instring,unique=False):
 
     # calculate the average by dividing sum_of_lengths by amount of words
     average_word_length = sum_of_lengths / len(split_string)
-
+    print(average_word_length)
     return average_word_length
 
