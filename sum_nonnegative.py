@@ -11,9 +11,9 @@
 ##############################################################################
 def compute_sum_to_n(n):
 
-    # make sure n is not negative
+    # make sure n is non-negative integer
+    assert type(n) == int
     assert n >= 0
-    assert n.is_integer()
 
     # make the non-negative sum
     sum = 0
