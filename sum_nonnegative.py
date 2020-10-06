@@ -13,6 +13,7 @@ def compute_sum_to_n(n):
 
     # make sure n is not negative
     assert n >= 0
+    assert n.is_integer()
 
     # make the non-negative sum
     sum = 0
