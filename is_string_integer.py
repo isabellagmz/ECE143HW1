@@ -13,8 +13,8 @@
 ##############################################################################
 def is_string_integer(input_string):
 
-    # check if input is valid (single character string)
-    assert type(input_string) == str
+    # check if input is string and single character string
+    assert isinstance(input_string, str)
     assert len(input_string) == 1
 
     # return true if it is digit, false if it is not digit
