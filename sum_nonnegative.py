@@ -20,7 +20,6 @@ def compute_sum_to_n(n):
     while n != 0:
         sum = sum + n
         n = n - 1
-
     sum = int(sum)
 
     return sum
