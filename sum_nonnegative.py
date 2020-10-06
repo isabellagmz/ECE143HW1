@@ -12,7 +12,7 @@
 def compute_sum_to_n(n):
 
     # make sure n is non-negative integer
-    assert type(n) == int
+    assert type(n) == int or n.is_integer()
     assert n >= 0
 
     # make the non-negative sum
@@ -20,5 +20,7 @@ def compute_sum_to_n(n):
     while n != 0:
         sum = sum + n
         n = n - 1
+
+    sum = int(sum)
 
     return sum
