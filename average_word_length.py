@@ -39,6 +39,6 @@ def compute_average_word_length(instring,unique=False):
 
     # calculate the average by dividing sum_of_lengths by amount of words
     average_word_length = sum_of_lengths / len(split_string)
-    print(average_word_length)
+
     return average_word_length
 
