@@ -16,7 +16,7 @@
 ##############################################################################
 def compute_average_word_length(instring,unique=False):
 
-    # check type string and that string is not empty with assert
+    """check type string and that string is not empty with assert"""
     assert type(instring) == str
     assert len(instring) >= 1
 
