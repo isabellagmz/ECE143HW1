@@ -6,4 +6,4 @@
 - sum_nonnegative
 - main
 
-Turned in for full credit (:
+Turned in for full credit.
