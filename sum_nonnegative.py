@@ -11,15 +11,14 @@
 ##############################################################################
 def compute_sum_to_n(n):
 
-    # make sure n is non-negative integer
+    """make sure n is non-negative integer"""
     assert type(n) == int
     assert n >= 0
 
     # make the non-negative sum
-    sum = 0
+    total_sum = 0
     while n != 0:
-        sum = sum + n
+        total_sum = total_sum + n
         n = n - 1
-    sum = int(sum)
 
-    return sum
+    return total_sum
